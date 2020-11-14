@@ -1,0 +1,8 @@
+<h1>Movies Results for: {{ title | uppercase }}</h1>
+<hr />
+
+<div class="row" *ngIf="moviesSearch.length > 0">
+  <div class="col">
+    <app-movies-list [moviesList]="moviesSearch"></app-movies-list>
+  </div>
+</div>

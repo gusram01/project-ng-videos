@@ -1,0 +1,13 @@
+<h1>Billboard</h1>
+<hr />
+
+<h2>What can see!</h2>
+<div class="row" *ngIf="movies.length > 0">
+  <div class="col">
+    <app-slider [moviesSlide]="movies | slice: 0:5"></app-slider>
+  </div>
+</div>
+
+<h2 class="mt-5">Last movies</h2>
+
+<app-movies-list [moviesList]="moviesListener"></app-movies-list>

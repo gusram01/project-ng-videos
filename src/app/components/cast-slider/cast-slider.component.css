@@ -1,0 +1,9 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 1;
+}
